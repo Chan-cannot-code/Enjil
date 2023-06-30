@@ -10,10 +10,11 @@ const Home = () => {
   return (
     <div>
       <CustomNav />
-      <div className="app-container">
-        <h1>Welcome, {username}!</h1>
+      <div className="greetuser">
+        <h5> Wélcome, {username}!</h5>
         <div className="pokemon-container">
           {/* Render PokemonThumbnail components */}
+          
           
         </div>
       </div>

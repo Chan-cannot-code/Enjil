@@ -40,7 +40,7 @@ function App() {
         <Route path="/registration" element={<Registration />} />
       </Routes>
       <div className="app-container">
-        <h1>Pokemon Index</h1>
+        <h1></h1>
         <div className="pokemon-container">
           <div className="all-container">
             {allPokemons.map((pokemon, index) => (

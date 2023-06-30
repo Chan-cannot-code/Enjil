@@ -15,9 +15,9 @@ const CostumNav = () => {
 
     return (
         <div className="custom-nav">
-        <Navbar color="light" light expand="md">
+        <Navbar color="#c0c0c0" light expand="md">
             <NavbarBrand href="/" className="mr-auto">
-            ITE-18 Strapi Authentication 
+            Pokémon API     |     Strapi API Authentication
             </NavbarBrand>
           <NavbarToggler onClick={toggle} className="mr-2" />
           <Collapse isOpen={isOpen} navbar>
